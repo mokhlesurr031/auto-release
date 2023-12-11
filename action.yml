@@ -7,10 +7,6 @@ inputs:
     required: true
     default: 'auto'
 
-outputs:
-  time:
-    description: 'The time release created'
-
 runs:
   using: 'docker'
   image: 'Dockerfile'
