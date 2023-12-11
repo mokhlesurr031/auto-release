@@ -11,9 +11,9 @@ jobs:
     runs-on: ubuntu-latest 
     steps:
       - name: Test Run
-        uses: mokhlesurr031/auto-release@v1.3
+        uses: mokhlesurr031/auto-release@v1.4
         with:
-          release-type: manual
-          minor-max-count: 20
+          release_type: manual
+          minor_max_count: "20"
 
 

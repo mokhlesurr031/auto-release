@@ -2,11 +2,11 @@ name: 'Github Auto Release Creation'
 description: 'Auto release creation action that will help you creating your code release automatically with several options parameter.'
 
 inputs:
-  release-type:
+  release_type:
     description: 'Type of the release, it can be auto, manual, or custom.'
     required: true
     default: 'auto'
-  minor-max-count:
+  minor_max_count:
     description: 'Minor change maximum count to update the major'
     required: true
     default: '21'
