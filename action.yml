@@ -1,0 +1,18 @@
+name: 'Github Auto Release Creation'
+description: 'Auto release creation action that will help you creating your code release automatically with several options parameter.'
+
+inputs:
+  release-type:
+    description: 'Type of the release, it can be auto, manual, or custom.'
+    required: true
+    default: 'auto'
+
+outputs:
+  time:
+    description: 'The time release created'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+  - ${{ inputs.release-type }}
