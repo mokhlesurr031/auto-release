@@ -8,6 +8,8 @@ inputs:
     default: 'auto'
   minor-max-count:
     description: 'Minor change maximum count to update the major'
+    required: true
+    default: '21'
 
 runs:
   using: 'docker'
