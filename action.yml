@@ -6,6 +6,8 @@ inputs:
     description: 'Type of the release, it can be auto, manual, or custom.'
     required: true
     default: 'auto'
+  minor-max-count:
+    description: 'Minor change maximum count to update the major'
 
 runs:
   using: 'docker'
