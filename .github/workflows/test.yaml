@@ -13,7 +13,7 @@ jobs:
       - name: Test Run
         uses: mokhlesurr031/auto-release@v1.4
         with:
-          release_type: manual
-          minor_max_count: "20"
+          release-type: manual
+          minor-max-count: "20"
 
 
