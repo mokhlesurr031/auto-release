@@ -14,5 +14,6 @@ jobs:
         uses: mokhlesurr031/auto-release@v1.1
         with:
           release-type: manual
+          minor-max-count: 20
 
 
